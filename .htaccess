@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule (.*) /web/$1
+#RewriteBase /
+
+#RewriteCond %{REQUEST_URI} !^/project/webroot/
+#RewriteRule .+ index.php
